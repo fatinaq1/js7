@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px 20px;
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+
+    
+    
+    
+  
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 30%;
+    margin: auto;
+    background-color: rgba(119, 166, 197, 0.726);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px 0px;
+    box-shadow: 0 4px 12px rgba(0, 4, 0, 0.3);
+    
+}
+.square {
+    width: 200px;
+    height: 80px;
+    background-color: #fcfcfc; 
+    
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+    margin-left: 5px;
+    border-radius: 20px;
+  }
+  .square .total{
+
+font-size: 30px;
+  }
+
+
+  .all{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .part{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .part button{
+
+    padding: 20px;
+    width: 150px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(15, 40, 94, 0.322);
+    color: white;
+    transition: ease-in-out ;
+  }
+  
+.part button:hover{
+    background-color: rgba(34, 47, 161, 0.622);
+    cursor: pointer;
+    
+}
+
+  .part .counter{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .reset{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(15, 40, 94, 0.322);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-right: 5px;
+  }
+.reset span{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.reset:hover{
+    background-color: rgba(34, 47, 161, 0.622);
+  cursor: pointer;
+}
+
+  @media  (min-width: 0px) and (max-width: 768px) {
+
+    
+    
+    .container{
+        width:80%;
+    }
+    
+    h1{
+      font-size: 20px;
+      text-align: center;
+      padding: 20px 20px;
+    }
+  }
